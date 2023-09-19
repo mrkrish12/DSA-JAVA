@@ -1,7 +1,8 @@
 class Solution {
-    public int findDuplicate(int[] arr) {
+    public int findDuplicate(int[] nums) {
         HashSet<Integer> hs = new HashSet<>();
-        for(int i:arr)
+        
+        for(int i:nums)
         {
             if(hs.contains(i))
             {
